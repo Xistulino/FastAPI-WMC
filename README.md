@@ -1,7 +1,7 @@
 # FastAPI User Management API
 
 Este projeto é uma API simples de gerenciamento de usuários construída com FastAPI. A API permite listar, adicionar, visualizar e remover usuários da base de dados simulada. Trata-se da minha primeira experiência com
-FastAPI. O desenvolvimento é resultado das aulas do bootcamp Python e Django ofertado pela WoMakersCode.
+FastAPI. O desenvolvimento é resultado das aulas do bootcamp em Python e Django ofertado pela WoMakersCode.
 
 ## Requisitos
 
