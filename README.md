@@ -14,23 +14,31 @@ Antes de começar, você precisará ter o seguinte instalado:
 
 ## Instalação
 
-1. Clone este repositório para sua máquina local:
+Clone este repositório para sua máquina local:
 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
 
-2. Navegue até o diretório do projeto:
+Navegue até o diretório do projeto:
+ ```bash
    cd seu-repositorio
+```
 
-3. Crie e ative um ambiente virtual (opcional, mas recomendado):
-
+Crie e ative um ambiente virtual (opcional, mas recomendado):
+```bash
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
 .\venv\Scripts\activate   # Windows
+```
 
-4. Instale as dependências do projeto:
 
+Instale as dependências do projeto:
+```bash
 pip install -r requirements.txt
+```
 
-5. Para iniciar a aplicação, execute o seguinte comando:
+
+Para iniciar a aplicação, execute o seguinte comando:
+```bash
 uvicorn main:app --reload
